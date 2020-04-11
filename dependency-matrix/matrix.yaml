@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: terradata-io
+  repo: test-jx-nodejs
+  url: https://github.com/terradata-io/test-jx-nodejs.git
+  version: ""
+  versionURL: ""

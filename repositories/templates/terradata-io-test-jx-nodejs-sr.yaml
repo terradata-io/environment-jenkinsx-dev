@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: terradata-io
+    provider: github
+    repository: test-jx-nodejs
+  name: terradata-io-test-jx-nodejs
+spec:
+  description: Imported application for terradata-io/test-jx-nodejs
+  httpCloneURL: https://github.com/terradata-io/test-jx-nodejs.git
+  org: terradata-io
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-jx-nodejs
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/terradata-io/test-jx-nodejs.git
