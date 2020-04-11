@@ -1,0 +1,10 @@
+adminUser:
+  password: local:jenkinsx/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: htaidirt+terrabot360@gmail.com
+  token: local:jenkinsx/pipelineUser:token
+  username: terrabot360
+prow:
+  hmacToken: local:jenkinsx/prow:hmacToken
